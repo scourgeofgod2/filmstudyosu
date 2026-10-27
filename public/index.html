@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111311">
+  <title>Film Stüdyosu</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-mark">✳</span><div><strong>film stüdyosu</strong><small>YARATICI ALANINIZ</small></div></div>
+      <div class="sidebar-top"><span>PROJELER</span><button class="icon-button" id="new-project" title="Yeni proje" aria-label="Yeni proje">＋</button></div>
+      <nav id="project-list" aria-label="Projeler"></nav>
+      <div class="sidebar-foot"><span class="status-dot"></span> Yerel çalışma alanı <small>Fikirden ilk kareye.</small></div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><div><span class="eyebrow">YARATICI ÇALIŞMA ALANI</span><span class="topbar-name"> / Film Stüdyosu</span></div><span class="top-note"><span class="status-dot"></span> Yerel stüdyo</span></header>
+      <div class="content">
+        <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+        <div id="workspace"></div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
